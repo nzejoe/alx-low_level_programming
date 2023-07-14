@@ -1,4 +1,4 @@
-#include <stdio.io>
+#include <stdio.h>
 /**
  * main - print alphabets except q and e
  *
