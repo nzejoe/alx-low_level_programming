@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+* main - generate assembling code with intel
+* Return: 0 (Success)
+*/
+int main(void)
+{
+        gcc -S -masm=intel $CFILE;
+	return (0);
+}
