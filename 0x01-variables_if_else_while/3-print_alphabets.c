@@ -11,7 +11,7 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 		pustchar(ch);
 	for (ch = 'A'; ch <= 'Z'; ch++)
-                pustchar(ch);
+                putchar(ch);
 	putchar('\n');
 	return (0);
 }
