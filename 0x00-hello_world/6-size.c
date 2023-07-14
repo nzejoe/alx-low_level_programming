@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - prints sizes of data type allocation
+ *
+ * Return: 0 (Return nothing but zero (0)
+*/
+int main(void){
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
+	printf("Size of a char: %lu bytes", sizeof(a));
+	printf("Size of a int: %lu bytes", sizeof(b));
+	printf("Size of a long int: %lu bytes", sizeof(c));
+	printf("Size of a long long int: %lu bytes", sizeof(d));
+	printf("Size of a float: %lu bytes", sizeof(f));
+	return 0;
+}
