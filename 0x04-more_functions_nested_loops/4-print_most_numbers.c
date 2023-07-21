@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers - checks for checks for a digit (0 through 9) and print number if it is not 2 and 4.
+ * print_numbers - checks for checks for a digit (0 through 9)
+ * and print number if it is not 2 and 4.
  *
  * Return: Always 0.
  */
